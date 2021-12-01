@@ -1,0 +1,46 @@
+=============== Nov 30, 2021 (UTC) ===============
+14:19:36.369705 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:19:36.372730 db@open opening
+14:19:36.373134 version@stat F·[] S·0B[] Sc·[]
+14:19:36.374242 db@janitor F·2 G·0
+14:19:36.374290 db@open done T·1.540188ms
+17:08:29.908666 memdb@flush N·8073 S·3MiB
+17:08:29.926296 memdb@flush created L0@3 N·8073 S·974KiB "abc..y:1,v6":"val..999,v3991"
+17:08:29.926409 version@stat F·[1] S·974KiB[974KiB] Sc·[0.25]
+17:08:29.927749 memdb@flush committed F·1 T·18.903832ms
+17:08:29.929827 journal@remove removed @1
+19:57:31.530509 memdb@flush N·8078 S·3MiB
+19:57:31.550264 memdb@flush created L0@5 N·8078 S·956KiB "abc..018,v8074":"val..039,v16151"
+19:57:31.550386 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+19:57:31.551721 memdb@flush committed F·1 T·21.085195ms
+19:57:31.553367 journal@remove removed @2
+20:01:51.828140 table@compaction L0·2 -> L1·0 S·1MiB Q·16357
+20:01:51.882752 table@build created L1@6 N·12115 S·1MiB "abc..y:1,v6":"val..999,v3991"
+20:01:51.882913 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+20:01:51.884464 table@compaction committed F-1 S-742KiB Ke·0 D·4036 T·56.203966ms
+20:01:51.884867 table@remove removed @5
+20:01:51.885190 table@remove removed @3
+22:46:37.340525 memdb@flush N·8078 S·3MiB
+22:46:37.358256 memdb@flush created L0@8 N·8078 S·957KiB "abc..038,v16154":"val..058,v24227"
+22:46:37.358406 version@stat F·[1 1] S·2MiB[957KiB 1MiB] Sc·[0.25 0.01]
+22:46:37.362357 memdb@flush committed F·1 T·21.714321ms
+22:46:37.364548 journal@remove removed @4
+22:51:09.107531 table@compaction L0·1 -> L1·1 S·2MiB Q·24449
+22:51:09.182395 table@build created L1@9 N·18173 S·1MiB "abc..y:1,v6":"val..999,v3991"
+22:51:09.182555 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+22:51:09.187956 table@compaction committed F-1 S-365KiB Ke·0 D·2020 T·80.291061ms
+22:51:09.188394 table@remove removed @8
+22:51:09.188829 table@remove removed @6
+=============== Dec 1, 2021 (UTC) ===============
+01:35:38.494810 memdb@flush N·8078 S·3MiB
+01:35:38.510583 memdb@flush created L0@11 N·8078 S·957KiB "abc..057,v24230":"val..078,v32307"
+01:35:38.510739 version@stat F·[1 1] S·2MiB[957KiB 1MiB] Sc·[0.25 0.02]
+01:35:38.511824 memdb@flush committed F·1 T·16.856007ms
+01:35:38.513740 journal@remove removed @7
+01:40:10.035515 table@compaction L0·1 -> L1·1 S·2MiB Q·32525
+01:40:10.082071 table@build created L1@12 N·7608 S·2MiB "abc..y:1,v6":"abc..846,v31386"
+01:40:10.113241 table@build created L1@13 N·16624 S·290KiB "abc..847,v31390":"val..999,v3991"
+01:40:10.113397 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+01:40:10.114511 table@compaction committed F~ S-364KiB Ke·0 D·2019 T·78.897579ms
+01:40:10.114845 table@remove removed @11
+01:40:10.115377 table@remove removed @9
